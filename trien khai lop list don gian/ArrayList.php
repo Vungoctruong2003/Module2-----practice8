@@ -12,7 +12,7 @@ class ArrayList implements ArrayListInterface
     }
 public function add($item)
 {
-array_push($this->arrayList,$item);
+  array_push($this->arrayList,$item);
 }
 public function get($index)
 {
